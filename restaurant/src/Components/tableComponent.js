@@ -26,23 +26,7 @@ render(){
       <td>{col.genre}</td>
     </tr>)}
   </tbody>
-
-
-
 </table>
-
-                {/* <tr>
-                    <th>Name</th>
-                    <th>Res</th>
-                    <th>zdfg</th>
-                    <th>adg</th>
-                </tr> */}
-                {/* <tr>
-                    {this.state.result.map(columns => <td>
-                        {columns.name}
-                    </td>)}
-                </tr> */}
-                {/* <h1>{this.yes()}</h1> */}
             </div>
         )
     }

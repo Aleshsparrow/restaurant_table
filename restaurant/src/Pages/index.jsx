@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Table from './../Components/tableComponent'
+import NavBar from './../Components/navBarComponent'
 
 class Main extends Component {
     state = {
         isLoaded: false,
         result: []
     }
-
     componentDidMount (){
       fetch("https://code-challenge.spectrumtoolbox.com/api/restaurants", {
             headers: {
@@ -20,15 +20,16 @@ class Main extends Component {
             result: data
         })
   );
-
     }
     render() { 
         return ( 
+            <div>
+                <NavBar/>
             <div className="container">
-
+            <button className="btn-secondary btn-sm">Sort Alphabetically</button>
                 <Table result={this.state.result}/>
             </div>
-         );
+         </div>);
     }
 }
  
