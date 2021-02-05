@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Aleshsparrow/restaurant_table#readme",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "node-fetch": "^2.6.1",
+    "util": "^0.12.3"
   }
 }

@@ -1,17 +1,23 @@
-import React from 'react'
+import React, { Component } from 'react'
 // import Response from './API/api'
 import Table from './Components/tableComponent'
+import Test from './Components/test'
+import Main from './Pages/index'
+import "bootstrap/dist/css/bootstrap.css"
 
 
-function App() {
+
+class App extends Component{
+
+  
   // console.log(Response);
-  return (
-  <>
-    <h1>YES</h1>
-    <Table>this is</Table>
-    
-    </>
-  );
-}
+  render () {
+
+    return (
+      
+      <Main/>
+    );
+  }
+  }
 
 export default App;
